@@ -1,0 +1,36 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "This is react app",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reactdev-env/Latest.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Pavan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reactdev-env/Latest/issues"
+  },
+  "homepage": "https://github.com/reactdev-env/Latest#readme",
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "browserslist": [
+    "last 10 Chrome version",
+    "last 2 Firefox version",
+    "last 10 Edge version",
+    "last 2 versions"
+  ]
+}

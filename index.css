@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.logo {
+    width: 80px;
+    padding-left: 10px;
+}
+
+.nav-items {
+    display: flex;
+    font-size: 20px;
+    gap: 20px;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 25px;
+    padding-right: 30px;
+}
+
+.restaurant-container {
+    display: flex;
+    gap: 10px displa
+}
+
+.res-card {
+    margin-top: 10px;
+    border: solid 1px black;
+    width: 200px;
+    height: 450px;
+    padding: 5px 5px 5px 5px;
+}
+
+.res-card:hover {
+    border: 10px rgb(96, 202, 202);
+    cursor: pointer;
+}
+
+.image {
+    width: 200px;
+    height: 250px;
+
+
+}
+
+.small-headings {
+    padding-left: 10px;
+    gap: 5px;
+}

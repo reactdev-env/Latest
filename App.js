@@ -1,18 +1,22 @@
-const parent = React.createElement("div", { id: "parent" }, [
-    React.createElement("div", { id: "child" }, [
-        React.createElement("h1", {}, "I am h1 tag"),
-        React.createElement("h2", {}, "I am h2 tag"),
+import React from 'react'
+import ReactDOM from "react-dom/client"
+import Header from './Components/Header';
+import Body from './Components/Body';
 
-    ]),
 
-    React.createElement("div", { id: "child2" }, [
-        React.createElement("h1", {}, "I am h1 tag"),
-        React.createElement("h2", {}, "I am h2 tag"),
-    ]),
-]);
 
-//jsx
 
-document.write(parent);   //object
+const App = () => {
+    return (
+        <div className='app'>
+            <Header />
+            <Body />
+
+
+        </div>
+    )
+}
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);  //it will render the parent inside the root
+
+root.render(<App />);
