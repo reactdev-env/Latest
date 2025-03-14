@@ -48,3 +48,14 @@
     padding-left: 10px;
     gap: 5px;
 }
+
+.filter-btn {
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.filter-btn:hover {
+    background-color: rgb(117, 171, 221);
+    cursor: pointer;
+}

@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from "react-dom/client"
 import Header from './Components/Header';
-import Body from './Components/Body';
+import Stat from './Components/Stat';
 
 
 
@@ -10,7 +10,9 @@ const App = () => {
     return (
         <div className='app'>
             <Header />
-            <Body />
+            <Stat />
+
+
 
 
         </div>
